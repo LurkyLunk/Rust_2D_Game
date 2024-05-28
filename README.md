@@ -1,17 +1,8 @@
-# Rusty Engine
+# Rust 2D Game Engine
 
 Rusty Engine is a simple, 2D game engine for those who are learning Rust. Create simple game prototypes using straightforward Rust code without needing to learning difficult game engine concepts! It works on macOS, Linux, and Windows. Rusty Engine is a simplification wrapper over [Bevy], which I encourage you to use directly for more serious game engine needs.
 
-[Questions], [bug reports], and contributions are most welcome!
 
-https://user-images.githubusercontent.com/5838512/122880590-651bae00-d2f7-11eb-8e5c-4810b3777828.mp4
-
-## Documentation
-
-- [Tutorial](https://cleancut.github.io/rusty_engine/)
-- [API Reference](https://docs.rs/rusty_engine/latest/rusty_engine/)
-- [Code Examples](https://github.com/CleanCut/rusty_engine/tree/main/examples)
-- [Game Scenarios](https://github.com/CleanCut/rusty_engine/tree/main/scenarios)
 
 ## Features
 
@@ -29,14 +20,6 @@ https://user-images.githubusercontent.com/5838512/122880590-651bae00-d2f7-11eb-8
 - Custom game state
 - Window customization
 
-## Courses
-
-If you like Rusty Engine, please sponsor me [on GitHub] or [on Patreon], or take one of my courses below!
-
-The following courses use Rusty Engine in their curriculum:
-
-- [Ultimate Rust 2: Intermediate Concepts](https://www.udemy.com/course/ultimate-rust-2/?referralCode=8ED694EBE5637F954414) on Udemy (the sequel to [Ultimate Rust Crash Course](https://www.udemy.com/course/ultimate-rust-crash-course/?referralCode=AF30FAD8C6CCCC2C94F0))
-- [Rust in 3 Weeks](https://agileperception.com) conducted live on O'Reilly Online approximately once each quarter.
 
 ## Linux Dependencies (Including WSL 2)
 
@@ -108,18 +91,6 @@ Write your game!
 
 Run your game with `cargo run --release`!
 
-<img width="1348" alt="example screenshot" src="https://user-images.githubusercontent.com/5838512/146858022-1d91c7f4-8b21-4f85-a72a-c4b93edcabc6.png">
-
-
-See also the [tutorial](https://cleancut.github.io/rusty_engine/), [game scenarios](https://github.com/CleanCut/rusty_engine/tree/main/scenarios), [code examples](https://github.com/CleanCut/rusty_engine/tree/main/examples) and the [API documentation](https://docs.rs/rusty_engine/latest/rusty_engine/)
-
-## Student Showcase
-
-Show off the project you made with Rusty Engine! Learning Rust can be fun. 😄 Just [send me a link](https://agileperception.com/contact) and I'll add it to the list!
-
-- [Rusty Asteroids](https://github.com/etnt/rusty-asteroids) by [@etnt](https://github.com/etnt)
-- [Rusty Breakout](https://github.com/etnt/rusty-breakout) by [@etnt](https://github.com/etnt)
-
 ## Contribution
 
 All software contributions are assumed to be dual-licensed under MIT/Apache-2.  All asset contributions must be under licenses compatible with the software license, and explain their license(s) in a `README.md` file in the same directory as the source files.
@@ -137,9 +108,6 @@ Distributed under the terms of both the MIT license and the Apache License (Vers
 See [license/APACHE](license/APACHE) and [license/MIT](license/MIT).
 
 [CPAL]: https://github.com/RustAudio/cpal
-[Questions]: https://github.com/CleanCut/rusty_engine/discussions
-[Ultimate Rust Crash Course]: https://agileperception.com/ultimate_rust_crash_course
-[bug reports]: https://github.com/CleanCut/rusty_engine/issues/new
 [rendy]: https://github.com/amethyst/rendy
 [on GitHub]: https://github.com/sponsors/CleanCut
 [on Patreon]: https://patreon.com/nathanstocks
